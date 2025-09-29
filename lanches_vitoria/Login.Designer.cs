@@ -81,12 +81,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.White;
+            ClientSize = new Size(551, 322);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Login";
             Text = "Form1";
             ResumeLayout(false);

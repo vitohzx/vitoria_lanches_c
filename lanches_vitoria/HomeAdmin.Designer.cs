@@ -1,4 +1,6 @@
-﻿namespace lanches_vitoria
+﻿using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
+
+namespace lanches_vitoria
 {
     partial class HomeAdmin
     {
@@ -38,7 +40,9 @@
             button1 = new Button();
             panel2 = new Panel();
             panel3 = new Panel();
+            closeButton = new Button();
             panel1.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -116,6 +120,7 @@
             button4.Text = "Cadastrar";
             button4.TextAlign = ContentAlignment.MiddleLeft;
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -131,6 +136,7 @@
             button3.Text = "Login";
             button3.TextAlign = ContentAlignment.MiddleLeft;
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -174,10 +180,25 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(100, 181, 246);
+            panel3.Controls.Add(closeButton);
             panel3.Location = new Point(214, 0);
             panel3.Name = "panel3";
             panel3.Size = new Size(591, 48);
             panel3.TabIndex = 2;
+            // 
+            // closeButton
+            // 
+            closeButton.FlatAppearance.BorderSize = 0;
+            closeButton.FlatStyle = FlatStyle.Flat;
+            closeButton.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            closeButton.ForeColor = Color.White;
+            closeButton.Location = new Point(531, -7);
+            closeButton.Name = "closeButton";
+            closeButton.Size = new Size(60, 55);
+            closeButton.TabIndex = 1;
+            closeButton.Text = "×";
+            closeButton.UseVisualStyleBackColor = true;
+            closeButton.Click += closeButton_Click;
             // 
             // HomeAdmin
             // 
@@ -191,8 +212,11 @@
             Name = "HomeAdmin";
             Text = "Home";
             panel1.ResumeLayout(false);
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
+
+
 
         #endregion
 
@@ -207,5 +231,6 @@
         private Button button7;
         private Button button6;
         private Button button5;
+        private Button closeButton;
     }
 }

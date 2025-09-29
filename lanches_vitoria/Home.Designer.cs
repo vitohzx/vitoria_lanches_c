@@ -35,7 +35,9 @@
             button1 = new Button();
             panel2 = new Panel();
             panel3 = new Panel();
+            closeButton = new Button();
             panel1.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -125,10 +127,25 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(100, 181, 246);
+            panel3.Controls.Add(closeButton);
             panel3.Location = new Point(214, 0);
             panel3.Name = "panel3";
             panel3.Size = new Size(591, 48);
             panel3.TabIndex = 2;
+            // 
+            // closeButton
+            // 
+            closeButton.FlatAppearance.BorderSize = 0;
+            closeButton.FlatStyle = FlatStyle.Flat;
+            closeButton.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            closeButton.ForeColor = Color.White;
+            closeButton.Location = new Point(531, -7);
+            closeButton.Name = "closeButton";
+            closeButton.Size = new Size(60, 55);
+            closeButton.TabIndex = 0;
+            closeButton.Text = "×";
+            closeButton.UseVisualStyleBackColor = true;
+            closeButton.Click += button5_Click;
             // 
             // Home
             // 
@@ -142,6 +159,7 @@
             Name = "Home";
             Text = "Home";
             panel1.ResumeLayout(false);
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -154,5 +172,6 @@
         private Button button4;
         private Panel panel2;
         private Panel panel3;
+        private Button closeButton;
     }
 }

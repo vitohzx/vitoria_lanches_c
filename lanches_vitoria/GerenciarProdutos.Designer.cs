@@ -44,6 +44,28 @@
             label7 = new Label();
             nomeCategoria = new TextBox();
             label8 = new Label();
+            button3 = new Button();
+            label5 = new Label();
+            descEdit = new TextBox();
+            label9 = new Label();
+            precoEdit = new TextBox();
+            label10 = new Label();
+            nomeEdit = new TextBox();
+            label11 = new Label();
+            comboBox2 = new ComboBox();
+            editar = new Button();
+            selecionarCategoriaEdit = new Button();
+            label13 = new Label();
+            comboBoxCategoriasEdit = new ComboBox();
+            nomeCategoriaEdit = new TextBox();
+            editCategoria = new Button();
+            label12 = new Label();
+            deletar = new Button();
+            label14 = new Label();
+            comboBoxProdDelete = new ComboBox();
+            deleteCat = new Button();
+            label15 = new Label();
+            comboBoxCatDelete = new ComboBox();
             SuspendLayout();
             // 
             // mySqlCommand1
@@ -67,7 +89,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(108, 221);
             label4.Name = "label4";
-            label4.Size = new Size(127, 15);
+            label4.Size = new Size(126, 15);
             label4.TabIndex = 14;
             label4.Text = "DESCRIÇÃO PRODUTO";
             // 
@@ -84,7 +106,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(108, 152);
             label3.Name = "label3";
-            label3.Size = new Size(101, 15);
+            label3.Size = new Size(100, 15);
             label3.TabIndex = 12;
             label3.Text = "PREÇO PRODUTO";
             // 
@@ -100,7 +122,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(108, 91);
             label2.Name = "label2";
-            label2.Size = new Size(99, 15);
+            label2.Size = new Size(98, 15);
             label2.TabIndex = 10;
             label2.Text = "NOME PRODUTO";
             // 
@@ -113,13 +135,14 @@
             // 
             // label1
             // 
-            label1.AutoSize = true;
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(202, 39);
+            label1.Location = new Point(183, 41);
             label1.Name = "label1";
-            label1.Size = new Size(174, 20);
+            label1.Size = new Size(183, 20);
             label1.TabIndex = 8;
-            label1.Text = "CADASTRAR PRODUTO";
+            label1.Text = "CADASTRAR PRODUTOS";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
@@ -138,9 +161,9 @@
             // 
             // panel1
             // 
-            panel1.Location = new Point(530, 210);
+            panel1.Location = new Point(537, 239);
             panel1.Name = "panel1";
-            panel1.Size = new Size(10, 543);
+            panel1.Size = new Size(1, 1100);
             panel1.TabIndex = 16;
             // 
             // button2
@@ -171,7 +194,7 @@
             label7.AutoSize = true;
             label7.Location = new Point(108, 405);
             label7.Name = "label7";
-            label7.Size = new Size(108, 15);
+            label7.Size = new Size(107, 15);
             label7.TabIndex = 20;
             label7.Text = "NOME CATEGORIA";
             // 
@@ -184,13 +207,245 @@
             // 
             // label8
             // 
-            label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(187, 353);
+            label8.Location = new Point(183, 353);
             label8.Name = "label8";
-            label8.Size = new Size(195, 20);
+            label8.Size = new Size(200, 20);
             label8.TabIndex = 18;
             label8.Text = "CADASTRAR CATEGORIAS";
+            label8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(100, 181, 246);
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(320, 571);
+            button3.Name = "button3";
+            button3.Size = new Size(136, 23);
+            button3.TabIndex = 34;
+            button3.Text = "SELECIONAR";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(108, 748);
+            label5.Name = "label5";
+            label5.Size = new Size(126, 15);
+            label5.TabIndex = 33;
+            label5.Text = "DESCRIÇÃO PRODUTO";
+            // 
+            // descEdit
+            // 
+            descEdit.Location = new Point(108, 766);
+            descEdit.Multiline = true;
+            descEdit.Name = "descEdit";
+            descEdit.Size = new Size(348, 23);
+            descEdit.TabIndex = 32;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(108, 679);
+            label9.Name = "label9";
+            label9.Size = new Size(100, 15);
+            label9.TabIndex = 31;
+            label9.Text = "PREÇO PRODUTO";
+            // 
+            // precoEdit
+            // 
+            precoEdit.Location = new Point(108, 697);
+            precoEdit.Name = "precoEdit";
+            precoEdit.Size = new Size(348, 23);
+            precoEdit.TabIndex = 30;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(108, 618);
+            label10.Name = "label10";
+            label10.Size = new Size(98, 15);
+            label10.TabIndex = 29;
+            label10.Text = "NOME PRODUTO";
+            // 
+            // nomeEdit
+            // 
+            nomeEdit.Location = new Point(108, 636);
+            nomeEdit.Name = "nomeEdit";
+            nomeEdit.Size = new Size(348, 23);
+            nomeEdit.TabIndex = 28;
+            // 
+            // label11
+            // 
+            label11.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.Location = new Point(183, 533);
+            label11.Name = "label11";
+            label11.Size = new Size(200, 20);
+            label11.TabIndex = 27;
+            label11.Text = "EDITAR PRODUTOS";
+            label11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // comboBox2
+            // 
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(108, 571);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(189, 23);
+            comboBox2.TabIndex = 26;
+            // 
+            // editar
+            // 
+            editar.BackColor = Color.FromArgb(100, 181, 246);
+            editar.FlatAppearance.BorderSize = 0;
+            editar.FlatStyle = FlatStyle.Flat;
+            editar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            editar.ForeColor = Color.White;
+            editar.Location = new Point(108, 815);
+            editar.Name = "editar";
+            editar.Size = new Size(136, 23);
+            editar.TabIndex = 35;
+            editar.Text = "EDITAR";
+            editar.UseVisualStyleBackColor = false;
+            editar.Click += editar_Click;
+            // 
+            // selecionarCategoriaEdit
+            // 
+            selecionarCategoriaEdit.BackColor = Color.FromArgb(100, 181, 246);
+            selecionarCategoriaEdit.FlatAppearance.BorderSize = 0;
+            selecionarCategoriaEdit.FlatStyle = FlatStyle.Flat;
+            selecionarCategoriaEdit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            selecionarCategoriaEdit.ForeColor = Color.White;
+            selecionarCategoriaEdit.Location = new Point(320, 921);
+            selecionarCategoriaEdit.Name = "selecionarCategoriaEdit";
+            selecionarCategoriaEdit.Size = new Size(136, 23);
+            selecionarCategoriaEdit.TabIndex = 40;
+            selecionarCategoriaEdit.Text = "SELECIONAR";
+            selecionarCategoriaEdit.UseVisualStyleBackColor = false;
+            selecionarCategoriaEdit.Click += selecionarCategoriaEdit_Click;
+            // 
+            // label13
+            // 
+            label13.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label13.Location = new Point(183, 883);
+            label13.Name = "label13";
+            label13.Size = new Size(200, 20);
+            label13.TabIndex = 37;
+            label13.Text = "EDITAR CATEGORIAS";
+            label13.TextAlign = ContentAlignment.MiddleCenter;
+            label13.Click += label13_Click;
+            // 
+            // comboBoxCategoriasEdit
+            // 
+            comboBoxCategoriasEdit.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxCategoriasEdit.FormattingEnabled = true;
+            comboBoxCategoriasEdit.Location = new Point(108, 921);
+            comboBoxCategoriasEdit.Name = "comboBoxCategoriasEdit";
+            comboBoxCategoriasEdit.Size = new Size(189, 23);
+            comboBoxCategoriasEdit.TabIndex = 36;
+            // 
+            // nomeCategoriaEdit
+            // 
+            nomeCategoriaEdit.Location = new Point(108, 986);
+            nomeCategoriaEdit.Name = "nomeCategoriaEdit";
+            nomeCategoriaEdit.Size = new Size(348, 23);
+            nomeCategoriaEdit.TabIndex = 38;
+            // 
+            // editCategoria
+            // 
+            editCategoria.BackColor = Color.FromArgb(100, 181, 246);
+            editCategoria.FlatAppearance.BorderSize = 0;
+            editCategoria.FlatStyle = FlatStyle.Flat;
+            editCategoria.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            editCategoria.ForeColor = Color.White;
+            editCategoria.Location = new Point(108, 1032);
+            editCategoria.Name = "editCategoria";
+            editCategoria.Size = new Size(136, 23);
+            editCategoria.TabIndex = 41;
+            editCategoria.Text = "EDITAR";
+            editCategoria.UseVisualStyleBackColor = false;
+            editCategoria.Click += editCategoria_Click;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(108, 968);
+            label12.Name = "label12";
+            label12.Size = new Size(107, 15);
+            label12.TabIndex = 39;
+            label12.Text = "NOME CATEGORIA";
+            // 
+            // deletar
+            // 
+            deletar.BackColor = Color.FromArgb(100, 181, 246);
+            deletar.FlatAppearance.BorderSize = 0;
+            deletar.FlatStyle = FlatStyle.Flat;
+            deletar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            deletar.ForeColor = Color.White;
+            deletar.Location = new Point(320, 1137);
+            deletar.Name = "deletar";
+            deletar.Size = new Size(136, 23);
+            deletar.TabIndex = 44;
+            deletar.Text = "DELETAR";
+            deletar.UseVisualStyleBackColor = false;
+            deletar.Click += deletar_Click;
+            // 
+            // label14
+            // 
+            label14.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.Location = new Point(183, 1099);
+            label14.Name = "label14";
+            label14.Size = new Size(200, 20);
+            label14.TabIndex = 43;
+            label14.Text = "DELETAR PRODUTOS";
+            label14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // comboBoxProdDelete
+            // 
+            comboBoxProdDelete.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxProdDelete.FormattingEnabled = true;
+            comboBoxProdDelete.Location = new Point(108, 1137);
+            comboBoxProdDelete.Name = "comboBoxProdDelete";
+            comboBoxProdDelete.Size = new Size(189, 23);
+            comboBoxProdDelete.TabIndex = 42;
+            // 
+            // deleteCat
+            // 
+            deleteCat.BackColor = Color.FromArgb(100, 181, 246);
+            deleteCat.FlatAppearance.BorderSize = 0;
+            deleteCat.FlatStyle = FlatStyle.Flat;
+            deleteCat.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            deleteCat.ForeColor = Color.White;
+            deleteCat.Location = new Point(320, 1240);
+            deleteCat.Name = "deleteCat";
+            deleteCat.Size = new Size(136, 23);
+            deleteCat.TabIndex = 47;
+            deleteCat.Text = "DELETAR";
+            deleteCat.UseVisualStyleBackColor = false;
+            deleteCat.Click += deleteCat_Click;
+            // 
+            // label15
+            // 
+            label15.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.Location = new Point(183, 1202);
+            label15.Name = "label15";
+            label15.Size = new Size(200, 20);
+            label15.TabIndex = 46;
+            label15.Text = "DELETAR CATEGORIAS";
+            label15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // comboBoxCatDelete
+            // 
+            comboBoxCatDelete.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxCatDelete.FormattingEnabled = true;
+            comboBoxCatDelete.Location = new Point(108, 1240);
+            comboBoxCatDelete.Name = "comboBoxCatDelete";
+            comboBoxCatDelete.Size = new Size(189, 23);
+            comboBoxCatDelete.TabIndex = 45;
             // 
             // GerenciarProdutos
             // 
@@ -199,6 +454,28 @@
             AutoScroll = true;
             BackColor = Color.White;
             ClientSize = new Size(567, 371);
+            Controls.Add(deleteCat);
+            Controls.Add(label15);
+            Controls.Add(comboBoxCatDelete);
+            Controls.Add(deletar);
+            Controls.Add(label14);
+            Controls.Add(comboBoxProdDelete);
+            Controls.Add(editCategoria);
+            Controls.Add(selecionarCategoriaEdit);
+            Controls.Add(label12);
+            Controls.Add(nomeCategoriaEdit);
+            Controls.Add(label13);
+            Controls.Add(comboBoxCategoriasEdit);
+            Controls.Add(editar);
+            Controls.Add(button3);
+            Controls.Add(label5);
+            Controls.Add(descEdit);
+            Controls.Add(label9);
+            Controls.Add(precoEdit);
+            Controls.Add(label10);
+            Controls.Add(nomeEdit);
+            Controls.Add(label11);
+            Controls.Add(comboBox2);
             Controls.Add(button2);
             Controls.Add(label6);
             Controls.Add(label7);
@@ -217,6 +494,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "GerenciarProdutos";
             Text = "GerenciarProdutos";
+            Load += GerenciarProdutos_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -239,5 +517,27 @@
         private Label label7;
         private TextBox nomeCategoria;
         private Label label8;
+        private Button button3;
+        private Label label5;
+        private TextBox descEdit;
+        private Label label9;
+        private TextBox precoEdit;
+        private Label label10;
+        private TextBox nomeEdit;
+        private Label label11;
+        private ComboBox comboBox2;
+        private Button editar;
+        private Button selecionarCategoriaEdit;
+        private Label label13;
+        private ComboBox comboBoxCategoriasEdit;
+        private TextBox nomeCategoriaEdit;
+        private Button editCategoria;
+        private Label label12;
+        private Button deletar;
+        private Label label14;
+        private ComboBox comboBoxProdDelete;
+        private Button deleteCat;
+        private Label label15;
+        private ComboBox comboBoxCatDelete;
     }
 }

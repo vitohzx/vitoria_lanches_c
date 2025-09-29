@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|c:\\users\\eandr\\onedrive\\\u00E1rea de trabalho\\vitoria_lanches_c\\lanches_vitoria\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|c:\\users\\eandr\\onedrive\\\u00E1rea de trabalho\\vitoria_lanches_c\\lanches_vitoria\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|c:\\users\\eandr\\onedrive\\\u00E1rea de trabalho\\vitoria_lanches_c\\lanches_vitoria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\gerenciarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\gerenciarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|c:\\users\\eandr\\onedrive\\\u00E1rea de trabalho\\vitoria_lanches_c\\lanches_vitoria\\gerenciarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\gerenciarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|c:\\users\\eandr\\onedrive\\\u00E1rea de trabalho\\vitoria_lanches_c\\lanches_vitoria\\gerenciarprodutos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC282657-DEA2-4453-84F3-914ACDC63D44}|lanches_vitoria\\lanches_vitoria.csproj|solutionrelative:lanches_vitoria\\gerenciarprodutos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Login.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\Login.cs",
+              "ToolTip": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Login.cs",
+              "RelativeToolTip": "lanches_vitoria\\Login.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T01:09:05.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Login.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\Login.cs",
+              "ToolTip": "C:\\Users\\Eandr\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\Login.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\Login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:27:11.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeAdmin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\HomeAdmin.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\HomeAdmin.cs",
+              "ToolTip": "C:\\Users\\Eandr\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\HomeAdmin.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\HomeAdmin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T21:32:59.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\HomeAdmin.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\HomeAdmin.cs",
+              "ToolTip": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\HomeAdmin.cs",
+              "RelativeToolTip": "lanches_vitoria\\HomeAdmin.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:58:29.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Home.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\Home.cs",
+              "ToolTip": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Home.cs [Design]",
+              "RelativeToolTip": "lanches_vitoria\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:31:23.205Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Home.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\Home.cs",
+              "ToolTip": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Home.cs",
+              "RelativeToolTip": "lanches_vitoria\\Home.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAEwDgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:40:04.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GerenciarProdutos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\GerenciarProdutos.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\GerenciarProdutos.cs",
+              "ToolTip": "C:\\Users\\Eandr\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\GerenciarProdutos.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\GerenciarProdutos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T21:33:17.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cadastro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\Cadastro.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Eandr\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\Cadastro.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\vitohzx\\vitoria_lanches_c\\lanches_vitoria\\Cadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:26:55.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GerenciarProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\GerenciarProdutos.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\GerenciarProdutos.cs",
+              "ToolTip": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\GerenciarProdutos.cs",
+              "RelativeToolTip": "lanches_vitoria\\GerenciarProdutos.cs",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAAAE8BAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T21:34:14.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GerenciarProdutos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\GerenciarProdutos.Designer.cs",
+              "RelativeDocumentMoniker": "lanches_vitoria\\GerenciarProdutos.Designer.cs",
+              "ToolTip": "C:\\Users\\Eandr\\OneDrive\\\u00C1rea de Trabalho\\vitoria_lanches_c\\lanches_vitoria\\GerenciarProdutos.Designer.cs",
+              "RelativeToolTip": "lanches_vitoria\\GerenciarProdutos.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAlwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T00:14:50.228Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

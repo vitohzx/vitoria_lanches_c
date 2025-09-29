@@ -42,8 +42,8 @@ namespace lanches_vitoria
                             }
                             else
                             {
-                                HomeCliente home = new HomeCliente();
-                                home.Show();
+                                HomeCliente homeAdmin = new HomeCliente();
+                                homeAdmin.Show();
                                 Home.Hide();
                             }
 

@@ -13,9 +13,11 @@ namespace lanches_vitoria
 {
     public partial class Cadastro : Form
     {
-        public Cadastro()
+        private Form Home;
+        public Cadastro(Form home)
         {
             InitializeComponent();
+            Home = home;
         }
 
         private string textoParaConexao = "server=127.0.0.1;database=vitoria_lanches;user=root;password=root;";
@@ -35,6 +37,10 @@ namespace lanches_vitoria
                     command.Parameters.AddWithValue("@tipo", "cliente");
                     command.ExecuteNonQuery();
                     MessageBox.Show("Usuario cadastrado");
+
+                    HomeCliente homeCliente = new HomeCliente();
+                    homeCliente.Show();
+                    Home.Hide();
                 }
                 catch (Exception ex)
                 {

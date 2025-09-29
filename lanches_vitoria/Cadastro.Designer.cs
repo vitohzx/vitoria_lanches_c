@@ -35,8 +35,6 @@
             txtUsername = new TextBox();
             label3 = new Label();
             textBox1 = new TextBox();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
             SuspendLayout();
             // 
             // label2
@@ -97,33 +95,12 @@
             textBox1.Size = new Size(386, 23);
             textBox1.TabIndex = 10;
             // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(193, 254);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(60, 19);
-            checkBox1.TabIndex = 12;
-            checkBox1.Text = "admin";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(269, 254);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(61, 19);
-            checkBox2.TabIndex = 13;
-            checkBox2.Text = "cliente";
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
             // Cadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(checkBox2);
-            Controls.Add(checkBox1);
+            BackColor = Color.White;
+            ClientSize = new Size(551, 332);
             Controls.Add(label3);
             Controls.Add(textBox1);
             Controls.Add(label2);
@@ -131,6 +108,7 @@
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Cadastro";
             Text = "Cadastro";
             ResumeLayout(false);
@@ -146,7 +124,5 @@
         private TextBox txtUsername;
         private Label label3;
         private TextBox textBox1;
-        private CheckBox checkBox1;
-        private CheckBox checkBox2;
     }
 }

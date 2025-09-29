@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lanches_vitoria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56045b5492f831df948e75ebc2f84ac721270bd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b5f0301a4eab4c51de11799886c62e5c3796d4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("lanches_vitoria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lanches_vitoria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,6 +15,7 @@ namespace lanches_vitoria
         public HomeAdmin()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
         public void CarregarnoPainel(string nomeFormulario)
         {
@@ -22,7 +23,7 @@ namespace lanches_vitoria
             Form formulario = nomeFormulario switch
             {
                 "Login" => new Login(this),
-                "Cadastrar" => new Cadastro(),
+                "Cadastrar" => new Cadastro(this),
                 "Inicio" => new Inicio(),
                 "Produtos" => new Produtos(),
                 "GerenciarProdutos" => new GerenciarProdutos(),
@@ -47,6 +48,21 @@ namespace lanches_vitoria
         private void button5_Click(object sender, EventArgs e)
         {
             CarregarnoPainel("GerenciarProdutos");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CarregarnoPainel("Login");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CarregarnoPainel("Cadastrar");
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); 
         }
     }
 }
